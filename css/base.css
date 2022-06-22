@@ -32,6 +32,9 @@ transform: translate(110px,-50px) ;
     color: black;
     font-family:'Courier New', Courier, monospace;  
 }
+.textlogo a:hover {
+    color:#F7941E;
+}
 .textlogo2   {  
 transform: translate(110px,-50px) ;  
   justify-content:center;
@@ -46,6 +49,9 @@ transform: translate(110px,-50px) ;
     font-family:'Courier New', Courier, monospace;
 
 }
+.textlogo2 a:hover {
+    color:#F7941E;
+}
 .textlogo3  {  
     transform: translate(680px,-50px) ; 
   justify-content:center;
@@ -53,12 +59,15 @@ transform: translate(110px,-50px) ;
   color: black;
   font-family:'Courier New', Courier, monospace;
  margin-top:-25px;
- margin-left:215px; 
+ margin-left:235px; 
 }
 
 .textlogo3 a{
     color: black;
     font-family:'Courier New', Courier, monospace;
+}
+.textlogo3 a:hover {
+    color:#F7941E;
 }
 .textlogo4  {  
     transform: translate(580px,-50px) ; 
@@ -72,6 +81,9 @@ transform: translate(110px,-50px) ;
 .textlogo4 a {
     color: black;
   font-family:'Courier New', Courier, monospace;
+}
+.textlogo4 a:hover {
+    color:#F7941E;
 }
 .click1 {
  display:flex; 
@@ -92,6 +104,7 @@ margin-top:-90px;
 
 .click1:hover{
     box-shadow: 2px 2px 15px 4px rgba(78,138,181,0.75);
+
 }
 
 .shapka{
