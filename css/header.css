@@ -17,6 +17,9 @@
   background-color: rgba(144, 197, 74, 0);
   
 }
+.header {
+  margin-top: -30px;
+}
 .header img {
   width: 51px;
   height: 59px;
@@ -25,7 +28,8 @@
 }
 
 .header_knopki {
-  min-width: 1000px;
+  min-width: 500px;
+  margin-left: -130px;
 }
 ul.list li {
   font-family: "Gilroy", sans-serif;
@@ -53,6 +57,7 @@ ul.list {
   background-color: rgba(235, 133, 8, 0);
   border: solid 1.5px rgb(235, 132, 8);
   margin-top: 60px;
+  margin-left: 200px;
  
 }
 .buttonHeader h2 {
