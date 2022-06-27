@@ -1,5 +1,4 @@
-body {
+#wrapper {
   max-width: 1440px;
   font-family: "Gilroy", sans-serif;
-  font-weight: 400;
 }
