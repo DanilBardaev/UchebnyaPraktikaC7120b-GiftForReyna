@@ -1,91 +1,57 @@
 .content {
+  display: flex;
   width: 1440px;
   height: 700px;
-  background-color: #f1f1f2;
-  
+  background-color: #1c1cd600;
 }
 .content img {
   width: 710px;
   height: 700px;
   transform: translate(730px, 0px);
 }
-.content p {
+
+.text__content {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  font-size: 32px;
   font-family: "Gilroy", sans-serif;
-  color: black;
-  font-size: 56px;
-  margin-top: -570px;
-  margin-left: -820px;
-  line-height: 69px;
+margin-left: -200px;
+margin-top: 100px;
 }
-.content q {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.text__content q {
+  max-width: 400px;
   font-family: "Gilroy", sans-serif;
-  margin-left: -820px;
+  margin-left: -680px;
   margin-top: 36px;
-  font-style: normal;
   font-size: 20px;
   line-height: 28.13px;
 }
+.text__content p {
+  max-width: 400px;
+  font-family: "Gilroy", sans-serif;
+  color: black;
+  font-size: 56px;
+  margin-top: -170px;
+  margin-left: -620px;
+  line-height: 69px;
+}
+
 .buttonContent {
   display: flex;
-  justify-content: center;
-  width: 200px;
+  justify-content: start;
+  align-items: center;
+  min-width: 200px;
   height: 60px;
   border-radius: 5px;
   background-color: #f7941e;
-  margin-left: 135px;
-  margin-top: 70px;
+  margin-top: 45px;
+  transform: translate(-410px,0px);
 }
 .buttonContent h2 {
   margin: auto;
   color: white;
   font-family: "Gilroy", sans-serif;
-}
-
-.content2 {
-  width: 1440px;
-  height: 600px;
-  background-color: #f1f1f2;
-}
-.content2 img {
-  width: 730px;
-}
-.content2 p {
-  display: flex;
-  font-size: 32px;
-  font-family: "Gilroy", sans-serif;
-  margin-left: 860px;
-  margin-top: -450px;
-}
-.content2 q {
-  display: flex;
-  font-size: 20px;
-  font-family: "Gilroy", sans-serif;
-  margin-left: 860px;
-  margin-top: 55px;
-}
-.buttonContent2 {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  width: 200px;
-  height: 60px;
-  border-radius: 5px;
-  background-color: #f7951e00;
-  margin-left: 855px;
-  margin-top: 50px;
-  border: solid 1px #f7941e;
-}
-.buttonContent2 h2 {
-  margin: auto;
-  color: #f7941e;
-  font-family: "Gilroy", sans-serif;
-}
-.header {
-  margin-left:00px;;
+  font-size: 18px;
 }

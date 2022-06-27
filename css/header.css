@@ -11,7 +11,7 @@
 
 .header {
   display: flex;
-  max-width: 1440px; 
+  width: 1440px; 
   height: 116px;
   margin-top: -21px;
   background-color: rgba(144, 197, 74, 0);
@@ -27,13 +27,12 @@
   margin-left: 80px;
 }
 
-.header_knopki {
+.header__knopki {
   min-width: 500px;
   margin-left: -130px;
 }
 ul.list li {
   font-family: "Gilroy", sans-serif;
-  display: inline;
   margin: 20px;
   font-size: 20px;
 }
