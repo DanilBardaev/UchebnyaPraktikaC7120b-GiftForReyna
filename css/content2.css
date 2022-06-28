@@ -1,54 +1,55 @@
 .content2 {
-    display: flex;
-    width: 1440px;
-    height: 600px;
-    background-color: #2525ca00;
-  }
-  .content2 img {
-    width: 730px;
-    height: 600px;
-  }
-  .text__content2  {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   flex-direction: column;
-    font-size: 32px;
-    font-family: "Gilroy", sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+.content__img2 {
+  position: relative;
+  padding-bottom: 84%;
+  background-color: red;
+}
+.content2__img2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.content2__img-wrapper {
+  width: 733.15px;
+}
+.content2__text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 32px;
+  font-family: "Gilroy", sans-serif;
+}
+.content2__text p {
+  min-width: 450px;
+}
+.content2__text q {
+  display: flex;
 
-  }
-  .text__content2 p {
-    min-width: 400px;
-    margin-top:-100px;
-    margin-left: 50px;
-  }
-  .text__content2 q {
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    font-family: "Gilroy", sans-serif;
-    margin-top: 55px;
-    line-height: 28.13px;
-    max-width: 450px;
-    padding-top: -20px;
-    margin-left:100px;
-  }
+  font-size: 20px;
+  font-family: "Gilroy", sans-serif;
+  margin-top: 55px;
+  line-height: 28.13px;
+  max-width: 450px;
+}
 
-  .buttonContent2 {
-    display: flex;
-    min-width: 200px;
-   height: 60px;
-    border-radius: 5px;
-    background-color: #f7951e00;
-    margin-left: -150px;
-    margin-top: 50px;
-    border: solid 1px #f7941e;
-    
-  }
-  .buttonContent2 h2 {
-    margin: auto;
-    color: #f7941e;
-    font-family: "Gilroy", sans-serif;
-    font-size: 18px;
-  }
-  
+.content2__button {
+  width: 200px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #f7951e00;
+  margin-top: 50px;
+  border: solid 1px #f7941e;
+  line-height: 60px;
+}
+.content2__button h2 {
+  color: #f7941e;
+  font-family: "Gilroy", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}

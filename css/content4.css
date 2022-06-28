@@ -1,65 +1,56 @@
-.content4{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 1440px;
-    height: 240px;
-    background-color:#f7951e;
+.content4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1440px;
+  height: 240px;
+  background-color: #f7951e;
 }
-.text__content4 p strong{
-     font-size: 32px;
-  }
-
-.text__content4 p{
-    padding: 5px 0px;
-    font-size: 32px;
-}
-.text__content4 {
-    display: flex;
-    flex-direction: column;
-  transform: translate(-250px, 50px);
-  
-}
-.button__content4 {
-    display: flex;
-    flex-direction: row;
-    transform: translate(450px,-120px);
+.content4__text p strong {
+  font-size: 32px;
 }
 
-.button1__content4 {
-    display: flex;
-    min-width: 200px;
-   height: 60px;
-    border-radius: 5px;
-    background-color: #0c0701;
-    margin-left: 150px;
-    margin-top: 50px;
-    border: solid 1px #000000;
-    transform: translate(100px,0px);
-  }
-  .button1__content4 h2 {
-    margin: auto;
-    color: white;
-    font-family: "Gilroy", sans-serif;
-    font-size: 18px;
-  }
+.content4__text p {
+  padding: 5px 0px;
+  font-size: 32px;
+}
 
+.content4__button {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
-  .button2__content4 {
-    display: flex;
-    min-width: 200px;
-    height: 60px;
-    border-radius: 5px;
-    background-color: #0c070100;
-    margin-left: 150px;
-    margin-top: 50px;
-    border: solid 1px #000000;
-   
-    
-  }
-  .button2__content4 h2 {
-    margin: auto;
-    color: black;
-    font-family: "Gilroy", sans-serif;
-    font-size: 18px;
-  }
+.content4__button1 {
+  width: 200px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #0c0701;
+  margin-left: 150px;
+  margin-top: 50px;
+  border: solid 1px #000000;
+  text-align: center;
+  line-height: 60px;
+}
+.content4__button1 h2 {
+  color: white;
+  font-family: "Gilroy", sans-serif;
+  font-size: 18px;
+}
+
+.content4__button2 {
+  min-width: 200px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #0c070100;
+  margin-left: 150px;
+  margin-top: 50px;
+  border: solid 1px #000000;
+  line-height: 60px;
+}
+.content4__button2 h2 {
+  text-align: center;
+  color: black;
+  font-family: "Gilroy", sans-serif;
+  font-size: 18px;
+}

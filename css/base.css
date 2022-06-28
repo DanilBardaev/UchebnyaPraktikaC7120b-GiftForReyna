@@ -1,12 +1,11 @@
 #wrapper {
   max-width: 1440px;
-  max-height: 900px;
+
   font-family: "Gilroy", sans-serif;
-  margin: auto;
 }
-a{
+a {
   text-decoration: none;
 }
 li {
-  list-style-type: none; 
- }
+  list-style-type: none;
+}
