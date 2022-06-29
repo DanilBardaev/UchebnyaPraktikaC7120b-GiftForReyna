@@ -2,15 +2,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   width: 1440px;
   height: 410px;
-  background-color: rgba(0, 255, 255, 0.425);
 }
 ul.list1__footer {
   display: flex;
   justify-content: flex-start;
   margin: 20px;
   color: black;
+  padding-left: 200px;
 }
 .list1__footer a {
   color: black;
@@ -28,6 +29,7 @@ ul.list2__footer {
   justify-content: flex-start;
   margin: 20px;
   color: black;
+  padding-right: 200px;
 }
 .list2__footer a {
   color: black;
@@ -42,7 +44,6 @@ ul.list2__footer li {
 .all__knopki__footer {
   display: flex;
   justify-content: space-between;
-  min-width: 700px;
 }
 .footer__img img {
   width: 40px;
@@ -50,4 +51,25 @@ ul.list2__footer li {
 }
 .footer__img {
   transform: translate(0px, 35px);
+}
+hr {
+border: 1px solid black;
+width: 1000px;
+border-radius: 50%;
+}
+
+.footer__logos a {
+  
+}
+.footer__logos img {
+  padding: 10px;
+  margin-top: 20px;
+}
+.footer__text__license {
+  display: flex;
+}
+.footer__text__license p {
+  padding: 10px;
+  margin-top: 73px;
+  opacity: 0.5;
 }

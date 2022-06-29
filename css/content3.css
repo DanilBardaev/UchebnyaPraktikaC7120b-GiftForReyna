@@ -18,7 +18,7 @@
 
 .content3__knopki-img {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
   margin-top: 10px;
 }
