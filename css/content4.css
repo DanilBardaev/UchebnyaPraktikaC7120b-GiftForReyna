@@ -1,10 +1,11 @@
+
 .content4 {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  width: 1440px;
-  height: 240px;
-  background-color: #f7951e;
+  justify-content: center;
+ height: 240px;
+ background-color: #f7951e;
+  
 }
 .content4__text p strong {
   font-size: 32px;
@@ -15,9 +16,9 @@
   font-size: 32px;
 }
 
+
 .content4__button {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
 }
 
@@ -27,10 +28,10 @@
   border-radius: 5px;
   background-color: #0c0701;
   margin-left: 150px;
-  margin-top: 50px;
   border: solid 1px #000000;
   text-align: center;
   line-height: 60px;
+
 }
 .content4__button1 h2 {
   color: white;
@@ -44,7 +45,7 @@
   border-radius: 5px;
   background-color: #0c070100;
   margin-left: 150px;
-  margin-top: 50px;
+
   border: solid 1px #000000;
   line-height: 60px;
 }

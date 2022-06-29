@@ -1,12 +1,12 @@
 
-.text__down__content p strong {
+.down__text__content p strong {
   font-family: "Gilroy", sans-serif;
   color: black;
   font-size: 32px;
   margin: 15px;
 }
 
-.text__down__content p {
+.down__text__content p {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,130 +15,135 @@
   font-size: 18px;
 }
 
-.text__down__content {
+.down__text__content {
   padding-top: 40px;
 }
 
-.block__down__content {
+.down__block__content {
   display: flex;
-  margin: 71px;
-  width: 1170px;
+  margin: 71px 135px;
   height: 370px;
   background-color: #231f20;
 }
-.text2__down__content {
+.content6__text2__down {
   display: flex;
   flex-direction: column;
   padding: 63px 70px;
+  
 }
 
-.text2__down__content h2 {
+.content6__text2__down h2 {
   color: white;
   font-size: 14px;
+  
 }
 
-.text2__down__content p {
+.content6__text2__down p {
   color: white;
   font-size: 48px;
   max-width: 500px;
   padding: 27px 0px;
 }
 
-.text2__down__content li {
+.content6__text2__down li {
   color: white;
   font-size: 18px;
   padding: 60px 0px;
 }
-.text2__down__content li a {
+.content6__text2__down li a {
   color: white;
 }
 
-.text2__down__content li a:hover {
-  color: #f7941e;
-}
-
-.footer1__down__contenta {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 570px;
-  height: 290px;
-  background: rgb(255, 255, 255);
-  transform: translate(70px, 0px);
-}
-.text3__down__content {
-  display: flex;
-}
-.text3__down_content p {
-    margin:15px;
-}
-
-.footer1__down__contenta p strong {
-  font-size: 24px;
-  max-width: 450px;
-  transform: translate(-15px, 0px);
-}
-
-.footer1__down__contenta p {
-  max-width: 460px;
-  font-size: 18px;
-}
-.footer1__down__contenta li a {
-  color: #000;
-}
-
-.footer1__down__contenta li {
-  margin-top: 26px;
-  margin-left: 15px;
-  font-size: 14px;
-  color: black;
-}
-
-.footer1__down__contenta li a:hover {
-  color: #f7941e;
-}
-
-.footer2__down__contenta {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 570px;
-  height: 290px;
-  background: rgb(255, 255, 255);
-  transform: translate(70px, 0px);
-}
-.text4__down_content p {
-    margin:15px;
-}
-.text4__down__content {
-  display: flex;
-}
-
-.footer2__down__contenta p strong {
-  font-size: 24px;
-  max-width: 450px;
-  transform: translate(-15px, 0px);
-}
-
-.footer2__down__contenta p {
-  max-width: 460px;
-  font-size: 18px;
-}
-.footer2__down__contenta li a {
-  color: #000;
-}
-
-.footer2__down__contenta li {
-  margin-top: 26px;
-  margin-left: 15px;
-  font-size: 14px;
-  color: black;
-}
-
-.footer2__down__contenta li a:hover {
+.content6__text2__down li a:hover {
   color: #f7941e;
 }
 .content6__2block {
   display: flex;
   flex-direction: row;
+  margin-left:50px;
 }
+.content6__footer1__down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 570px;
+  height: 290px;
+  background: rgb(255, 255, 255);
+  transform: translate(70px, 0px);
+}
+.content6__text3__down {
+  display: flex;
+  flex-direction: column;
+}
+.content6__text3__down p {
+    margin:15px;
+}
+
+.content6__footer1__down p strong {
+  font-size: 24px;
+  max-width: 450px;
+  transform: translate(-15px, 0px);
+}
+
+.content6__footer1__down p {
+  max-width: 460px;
+  font-size: 18px;
+}
+.content6__footer1__down li a {
+  color: #000;
+}
+
+.content6__footer1__down li {
+  margin-top: 26px;
+  margin-left: 15px;
+  font-size: 14px;
+  color: black;
+}
+
+.content6__footer1__down li a:hover {
+  color: #f7941e;
+}
+
+.content6__footer2__down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 570px;
+  height: 290px;
+  background: rgb(255, 255, 255);
+  transform: translate(70px, 0px);
+}
+.content6__text4__down p {
+    margin:15px;
+}
+.content6__text4__down {
+  display: flex;
+  flex-direction: column;
+}
+
+.content6__footer2__down p strong {
+  font-size: 24px;
+  max-width: 450px;
+  transform: translate(-15px, 0px);
+}
+
+.content6__footer2__down p {
+  max-width: 460px;
+  font-size: 18px;
+}
+.content6__footer2__down li a {
+  color: #000;
+}
+
+.content6__footer2__down li {
+  margin-top: 26px;
+  margin-left: 15px;
+  font-size: 14px;
+  color: black;
+}
+
+.content6__footer2__down li a:hover {
+  color: #f7941e;
+}
+

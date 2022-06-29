@@ -27,95 +27,95 @@
   padding: 65px 0px;
 }
 
-.choice1 p,
-.choice1 li {
+.content3__choice1 p,
+.content3__choice1 li {
   display: flex;
   justify-content: flex-start;
   align-items: stretch;
   transform: translate(35px, -55px);
   font-size: 24px;
 }
-.choice1 li a {
+.content3__choice1 li a {
   margin-top: 100px;
   font-size: 14px;
   color: black;
 }
-.choice1:hover {
+.content3__choice1:hover {
   box-shadow: -1px 3px 45px -16px rgba(0, 0, 0, 0.75);
 }
-.choice1 li a:hover {
+.content3__choice1 li a:hover {
   color: #f7941e;
 }
-.choice1 img:hover {
+.content3__choice1 img:hover {
   filter: grayscale(12%) sepia(61%) hue-rotate(18deg) saturate(453%);
 }
 
-.choice2 p,
-.choice2 li {
+.content3__choice2 p,
+.content3__choice2 li {
   display: flex;
   justify-content: flex-start;
   align-items: stretch;
   transform: translate(35px, -55px);
   font-size: 24px;
 }
-.choice2 li a {
+.content3__choice2 li a {
   margin-top: 100px;
   font-size: 14px;
   color: black;
 }
-.choice2:hover {
+.content3__choice2:hover {
   box-shadow: -1px 3px 45px -16px rgba(0, 0, 0, 0.75);
 }
-.choice2 li a:hover {
+.content3__choice2 li a:hover {
   color: #f7941e;
 }
 
-.choice2 img:hover {
+.content3__choice2 img:hover {
   filter: grayscale(12%) sepia(61%) hue-rotate(18deg) saturate(453%);
 }
 
-.choice3 p,
-.choice3 li {
+.content3__choice3 p,
+.content3__choice3 li {
   display: flex;
   justify-content: flex-start;
   align-items: stretch;
   transform: translate(35px, -55px);
   font-size: 24px;
 }
-.choice3 li a {
+.content3__choice3 li a {
   margin-top: 100px;
   font-size: 14px;
   color: black;
 }
-.choice3:hover {
+.content3__choice3:hover {
   box-shadow: -1px 3px 45px -16px rgba(0, 0, 0, 0.75);
 }
-.choice3 li a:hover {
+.content3__choice3 li a:hover {
   color: #f7941e;
 }
-.choice3 img:hover {
+.content3__choice3 img:hover {
   filter: grayscale(12%) sepia(61%) hue-rotate(18deg) saturate(453%);
 }
 
-.choice4 p,
-.choice4 li {
+.content4__choice4 p,
+.content4__choice4 li {
   display: flex;
   justify-content: flex-start;
   align-items: stretch;
   transform: translate(35px, -55px);
   font-size: 24px;
 }
-.choice4 li a {
+.content4__choice4 li a {
   margin-top: 100px;
   font-size: 14px;
   color: black;
 }
-.choice4:hover {
+.content4__choice4:hover {
   box-shadow: -1px 3px 45px -16px rgba(0, 0, 0, 0.75);
 }
-.choice4 li a:hover {
+.content4__choice4 li a:hover {
   color: #f7941e;
 }
-.choice4 img:hover {
+.content4__choice4 img:hover {
   filter: grayscale(12%) sepia(61%) hue-rotate(18deg) saturate(453%);
 }

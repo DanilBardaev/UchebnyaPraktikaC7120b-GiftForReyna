@@ -1,10 +1,4 @@
-@media screen and (max-width: 700px) {
-  .header {
-    clear: both;
-    font-size: 1.3em;
-  }
-  
-}
+
 .header a {
   cursor: pointer;
   text-decoration: none;
@@ -12,49 +6,48 @@
 
 .header {
   display: flex;
-  max-width: 1440px;
-  height: 116px;
-  margin-top: -21px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -41px;
   background-color: rgba(144, 197, 74, 0);
 }
-.header {
-  margin-top: -30px;
-}
+
 .header img {
   width: 51px;
   height: 59px;
-  margin-top: 59px;
-  margin-left: 80px;
+  margin-top: 49px;
+  margin-left: 50px;
 }
 
 .header__knopki {
-  min-width: 500px;
-  margin-left: -130px;
+  min-width: 400px;
+ 
 }
-ul.list li {
+ul.header__list li {
   font-family: "Gilroy", sans-serif;
   margin: 20px;
   font-size: 20px;
 }
-ul.list {
+.header__list {
   display: flex;
-  margin-left: 500px;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 100px;
   margin-top: 60px;
 }
-.list a {
+.header__list a {
   color: black;
 }
-.list a:hover {
+.header__list a:hover {
   color: #f7941e;
 }
 .buttonHeader {
-  width: 150px;
-  height: 43px;
+  min-width: 150px;
+  min-height: 43px;
   border-radius: 5px;
   background-color: rgba(235, 133, 8, 0);
   border: solid 1.5px rgb(235, 132, 8);
-  margin-top: 60px;
-  margin-left: 200px;
+margin-top: 55px;
   line-height: 40px;
 }
 .buttonHeader h2 {
