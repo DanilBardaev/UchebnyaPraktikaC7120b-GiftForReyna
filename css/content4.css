@@ -55,3 +55,9 @@
   font-family: "Gilroy", sans-serif;
   font-size: 18px;
 }
+.content4__button1:hover{
+  box-shadow: 2px 2px 15px 4px rgba(78, 138, 181, 0.75);
+}
+.content4__button2:hover{
+  box-shadow: 2px 2px 15px 4px rgba(78, 138, 181, 0.75);
+}

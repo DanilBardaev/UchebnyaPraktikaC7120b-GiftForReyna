@@ -58,3 +58,6 @@
   font-size: 18px;
   text-align: center;
 }
+.content__button:hover {
+  box-shadow: 2px 2px 15px 4px rgba(78, 138, 181, 0.75);
+}
